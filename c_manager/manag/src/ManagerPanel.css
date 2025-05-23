@@ -1,0 +1,50 @@
+.manager-panel {
+  display: flex;
+  height: 100vh;
+  font-family: Arial;
+}
+
+.chat-list {
+  width: 250px;
+  background: #f0f0f0;
+  overflow-y: auto;
+  padding: 1rem;
+}
+
+.chat-user {
+  padding: 0.5rem;
+  cursor: pointer;
+  border-bottom: 1px solid #ccc;
+}
+
+.chat-user:hover {
+  background: #ddd;
+}
+
+.chat-window {
+  flex-grow: 1;
+  padding: 1rem;
+  overflow-y: auto;
+  background: #fff;
+}
+
+.messages {
+  margin-top: 1rem;
+}
+
+.msg {
+  margin-bottom: 0.5rem;
+  padding: 0.4rem;
+  border-radius: 5px;
+  max-width: 70%;
+}
+
+.msg.user {
+  background: #e0f7fa;
+  align-self: flex-start;
+}
+
+.msg.manager {
+  background: #dcedc8;
+  align-self: flex-end;
+}
